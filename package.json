@@ -1,0 +1,68 @@
+{
+  "name": "simply.node-dns",
+  "version": "1.0.0",
+  "description": "Simply node dns, wrapper around node dns",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhorton34/simply.node-dns.git"
+  },
+  "keywords": [
+    "node",
+    "dns",
+    "simply",
+    "node",
+    "simply",
+    "node",
+    "dns",
+    "ip",
+    "host",
+    "cname"
+  ],
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      ".git",
+      "node_modules/**/node_modules"
+    ],
+    "verbose": true,
+    "execMap": {
+      "js": "node --harmony main.js"
+    },
+    "events": {
+      "restart": "osascript -e 'display notification \"App restarted due to:\n'$FILENAME'\" with title \"nodemon\"'"
+    },
+    "watch": [
+      "dummy/",
+      "files/",
+      "main.js",
+      "watch/files/",
+      "test/fixtures/",
+      "test/samples/"
+    ],
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "ext": "js,json,txt,md"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "send": "^0.17.1",
+    "vuejs-form": "^1.2.9",
+    "vuejs-validators": "^1.1.7"
+  },
+  "devDependencies": {
+    "collect.js": "^4.28.2",
+    "laravel-js-str": "^1.0.6"
+  },
+  "author": "zak@cleancode.studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhorton34/simply.node-dns/issues"
+  },
+  "homepage": "https://github.com/zhorton34/simply.node-dns#readme"
+}
